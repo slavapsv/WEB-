@@ -1,0 +1,47 @@
+.sheet{
+  display: grid;
+  grid-template-areas: "a . b";
+  width: 100%;
+  min-height: 100vh;
+  gap: 20px;
+  align-items: start;
+}
+
+body {
+  background-color: rgb(36, 35, 35);
+  margin: 0;
+}
+
+.container_user {
+  grid-area: a;
+  padding: 10px 25px;
+  display: grid;
+  gap: 7px;
+  background-color: gray;
+  width: 90px;
+  
+  grid-template-areas: 
+  "A"
+  "B"
+  "C";
+}
+
+.link_1 {
+  grid-area: A;
+}
+
+.link_2 {
+  grid-area: B;
+}
+
+.link_3 {
+  grid-area: C;
+}
+
+.join_push{
+  grid-area: b;
+  background-color: lightblue;
+  padding: 10px;
+  justify-self: end;
+  align-self: start;
+}

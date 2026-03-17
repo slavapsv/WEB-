@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    font-family: sans-serif;
+}
+
+.info {
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-content: center;
+    background-color: white;
+    height: 65px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info a {
+    color: black;
+    text-decoration: none;
+    grid-column-start: 2;
+
+}
+
+.get_in {
+    display: grid;
+    margin:  auto;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+    min-height: 550px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+
+
+.get_in h1 {
+    font-size: 21px;
+    color: rgb(58, 58, 58);
+}
+
+.get_in p {
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+}
+
+.email, .password {
+    position: relative;
+    bottom: 120px;
+    width: 100%;
+    height: 65px;    
+}
+
+.email input {
+    width: 100%;
+    height: 50%;
+}
+
+.password input {
+    width: 100%;
+    height: 50%;
+}
+
+.button_get_in button {
+    background-color: rgb(97, 97, 214);
+    color: white;
+    display: grid;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    place-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    font-family: sans-serif;
+}
+
+.button_get_in button:hover {
+    background-color: rgb(77, 77, 194); 
+}
+
+.unremember{
+    margin-top: 10px;
+}
+.unremember a{
+    text-decoration: none;
+    color: rgb(52, 163, 163);
+    font-size: 14px;
+}
+
+.registration {
+    margin-bottom: 70px;
+    max-width: 460px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background-color: white;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration a {
+    text-decoration: none;
+}
